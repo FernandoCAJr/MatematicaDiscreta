@@ -40,10 +40,12 @@ h3 {
 .top-container {
   background-color: bisque;
   height: 350px;
+  padding-bottom: 50px;
 }
 
 .middle-container {
   background-color: bisque;
+  padding-bottom: 50px;
 }
 .bottom-container {
   background-color: bisque;
