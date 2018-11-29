@@ -40,15 +40,18 @@ h3 {
 .top-container {
   background-color: bisque;
   height: 350px;
-  padding-bottom: 50px;
+  padding-bottom: 200px;
+  width: 100%;
 }
 
 .middle-container {
   background-color: bisque;
   padding-bottom: 50px;
+  width: 100%;
 }
 .bottom-container {
   background-color: bisque;
+  width: 100%;
 }
 .table2 {
   border: 1px solid black;
