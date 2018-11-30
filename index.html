@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento|Share+Tech+Mono" rel="stylesheet">
+  <title>Recursos ADS 2018</title>
+</head>
+<!-- ////////////////////////////////////////////////////
+    Tabela com exemplos.
+    //////////////////////////////////////////////////// -->
+
+<body>
+  <div class="top-container">
+    <h1>Tabela para consulta</h1>
+    <table align = "center" border="1" cellpadding="10" cellspacing="0">
+      <tr>
+        <th colspan="2">Negação (')</th>
+        <th></th>
+        <th colspan="3">Conjunção (.)</th>
+        <th></th>
+        <th colspan="3">Disjunção inclusiva (+)</th>
+        <th></th>
+        <th colspan="3">Disjunção exclusiva (&#8853;)</th>
+        <th></th>
+        <th colspan="3">Condicional (&#8594;)</th>
+        <th></th>
+        <th colspan="3">Bicondicional (&#8596;)</th>
+      </tr>
+      <tr>
+        <td>P</td>
+        <td>P'</td>
+        <td class="spacing"></td>
+        <td>P</td>
+        <td>Q</td>
+        <td>P . Q</td>
+        <td class="spacing"></td>
+        <td>P</td>
+        <td>Q</td>
+        <td>P + Q</td>
+        <td class="spacing"></td>
+        <td>P</td>
+        <td>Q</td>
+        <td>P&#8853;Q</td>
+        <td class="spacing"></td>
+        <td>P</td>
+        <td>Q</td>
+        <td>P&#8594;Q</td>
+        <td class="spacing"></td>
+        <td>P</td>
+        <td>Q</td>
+        <td>P&#8596;Q</td>
+      </tr>
+      <tr>
+        <td>0</td>
+        <td class="red">1</td>
+        <td class="spacing"></td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td class="spacing"></td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td class="spacing"></td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td class="spacing"></td>
+        <td>0</td>
+        <td>0</td>
+        <td class="red">1</td>
+        <td class="spacing"></td>
+        <td>0</td>
+        <td>0</td>
+        <td class="red">1</td>
+      </tr>
+      <tr>
+        <td class="red">1</td>
+        <td>0</td>
+        <td class="spacing"></td>
+        <td>0</td>
+        <td class="red">1</td>
+        <td>0</td>
+        <td class="spacing"></td>
+        <td>0</td>
+        <td class="red">1</td>
+        <td class="red">1</td>
+        <td class="spacing"></td>
+        <td>0</td>
+        <td class="red">1</td>
+        <td class="red">1</td>
+        <td class="spacing"></td>
+        <td>0</td>
+        <td class="red">1</td>
+        <td class="red">1</td>
+        <td class="spacing"></td>
+        <td>0</td>
+        <td class="red">1</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td>-</td>
+        <td>-</td>
+        <td class="spacing"></td>
+        <td class="red">1</td>
+        <td>0</td>
+        <td>0</td>
+        <td class="spacing"></td>
+        <td class="red">1</td>
+        <td>0</td>
+        <td class="red">1</td>
+        <td class="spacing"></td>
+        <td class="red">1</td>
+        <td>0</td>
+        <td class="red">1</td>
+        <td class="spacing"></td>
+        <td class="red">1</td>
+        <td>0</td>
+        <td>0</td>
+        <td class="spacing"></td>
+        <td class="red">1</td>
+        <td>0</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td>-</td>
+        <td>-</td>
+        <td class="spacing"></td>
+        <td class="red">1</td>
+        <td class="red">1</td>
+        <td class="red">1</td>
+        <td class="spacing"></td>
+        <td class="red">1</td>
+        <td class="red">1</td>
+        <td class="red">1</td>
+        <td class="spacing"></td>
+        <td class="red">1</td>
+        <td class="red">1</td>
+        <td>0</td>
+        <td class="spacing"></td>
+        <td class="red">1</td>
+        <td class="red">1</td>
+        <td class="red">1</td>
+        <td class="spacing"></td>
+        <td class="red">1</td>
+        <td class="red">1</td>
+        <td class="red">1</td>
+      </tr>
+    </table>
+  </div>
+  <hr>
+  <!-- ////////////////////////////////////////////////////
+    Tabela de Forma conjuntiva e desjuntiva.
+    //////////////////////////////////////////////////// -->
+  <div class="middle-container">
+    <h1>Forma normal conjuntiva e desjuntiva</h1>
+    <table align = "center" border="1" cellpadding="0" cellspacing="0">
+      <td>
+        <table border="1" cellpadding="10" cellspacing="0">
+          <tr>
+            <th>A</th>
+            <th>B</th>
+            <th>C</th>
+            <th>D</th>
+            <th></th>
+            <th>A+B</th>
+            <th>A+C</th>
+            <th>B+D</th>
+            <th>Z</th>
+            <th></th>
+            <th>-</th>
+          </tr>
+          <tr>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td class="spacing"></td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td class="spacing"></td>
+            <td>A+B+C+D</td>
+          </tr>
+          <tr>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td class="red">1</td>
+            <td class="spacing"></td>
+            <td>0</td>
+            <td>0</td>
+            <td class="red">1</td>
+            <td>0</td>
+            <td class="spacing"></td>
+            <td>A+B+C+D<span class="negative">'</span> </td>
+          </tr>
+          <tr>
+            <td>0</td>
+            <td>0</td>
+            <td class="red">1</td>
+            <td>0</td>
+            <td class="spacing"></td>
+            <td>0</td>
+            <td class="red">1</td>
+            <td>0</td>
+            <td>0</td>
+            <td class="spacing"></td>
+            <td>A+B+C<span class="negative">'</span>+D</td>
+          </tr>
+          <tr>
+            <td>0</td>
+            <td>0</td>
+            <td class="red">1</td>
+            <td class="red">1</td>
+            <td class="spacing"></td>
+            <td>0</td>
+            <td class="red">1</td>
+            <td class="red">1</td>
+            <td>0</td>
+            <td class="spacing"></td>
+            <td>A+B+C<span class="negative">'</span>+D<span class="negative">'</span></td>
+          </tr>
+          <tr>
+            <td>0</td>
+            <td class="red">1</td>
+            <td>0</td>
+            <td>0</td>
+            <td class="spacing"></td>
+            <td class="red">1</td>
+            <td>0</td>
+            <td class="red">1</td>
+            <td>0</td>
+            <td class="spacing"></td>
+            <td>A+B<span class="negative">'</span>+C+D</td>
+          </tr>
+          <tr>
+            <td>0</td>
+            <td class="red">1</td>
+            <td>0</td>
+            <td class="red">1</td>
+            <td class="spacing"></td>
+            <td class="red">1</td>
+            <td>0</td>
+            <td class="red">1</td>
+            <td>0</td>
+            <td class="spacing"></td>
+            <td>A+B<span class="negative">'</span>+C+D<span class="negative">'</span></td>
+          </tr>
+          <tr>
+            <td>0</td>
+            <td class="red">1</td>
+            <td class="red">1</td>
+            <td>0</td>
+            <td class="spacing"></td>
+            <td class="red">1</td>
+            <td class="red">1</td>
+            <td class="red">1</td>
+            <td class="red">1</td>
+            <td class="spacing"></td>
+            <td>A<span class="negative">'</span>BCD<span class="negative">'</span></td>
+          </tr>
+          <tr>
+            <td>0</td>
+            <td class="red">1</td>
+            <td class="red">1</td>
+            <td class="red">1</td>
+            <td class="spacing"></td>
+            <td class="red">1</td>
+            <td class="red">1</td>
+            <td class="red">1</td>
+            <td class="red">1</td>
+            <td class="spacing"></td>
+            <td>A<span class="negative">'</span>BCD</td>
+          </tr>
+          <tr>
+            <td class="red">1</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td class="spacing"></td>
+            <td class="red">1</td>
+            <td class="red">1</td>
+            <td>0</td>
+            <td>0</td>
+            <td class="spacing"></td>
+            <td>A<span class="negative">'</span>+B+C+D</td>
+          </tr>
+          <tr>
+            <td class="red">1</td>
+            <td>0</td>
+            <td>0</td>
+            <td class="red">1</td>
+            <td class="spacing"></td>
+            <td class="red">1</td>
+            <td class="red">1</td>
+            <td class="red">1</td>
+            <td class="red">1</td>
+            <td class="spacing"></td>
+            <td>AB<span class="negative">'</span>C<span class="negative">'</span>D</td>
+          </tr>
+          <tr>
+            <td class="red">1</td>
+            <td>0</td>
+            <td class="red">1</td>
+            <td>0</td>
+            <td class="spacing"></td>
+            <td class="red">1</td>
+            <td class="red">1</td>
+            <td>0</td>
+            <td>0</td>
+            <td class="spacing"></td>
+            <td>A<span class="negative">'</span>+B+C<span class="negative">'</span>+D</td>
+          </tr>
+          <tr>
+            <td class="red">1</td>
+            <td>0</td>
+            <td class="red">1</td>
+            <td class="red">1</td>
+            <td class="spacing"></td>
+            <td class="red">1</td>
+            <td class="red">1</td>
+            <td class="red">1</td>
+            <td class="red">1</td>
+            <td class="spacing"></td>
+            <td>AB<span class="negative">'</span>CD</td>
+          </tr>
+          <tr>
+            <td class="red">1</td>
+            <td class="red">1</td>
+            <td>0</td>
+            <td>0</td>
+            <td class="spacing"></td>
+            <td class="red">1</td>
+            <td class="red">1</td>
+            <td class="red">1</td>
+            <td class="red">1</td>
+            <td class="spacing"></td>
+            <td>ABC<span class="negative">'</span>D<span class="negative">'</span></td>
+          </tr>
+          <tr>
+            <td class="red">1</td>
+            <td class="red">1</td>
+            <td>0</td>
+            <td class="red">1</td>
+            <td class="spacing"></td>
+            <td class="red">1</td>
+            <td class="red">1</td>
+            <td class="red">1</td>
+            <td class="red">1</td>
+            <td class="spacing"></td>
+            <td>ABC<span class="negative">'</span>D</td>
+          </tr>
+          <tr>
+            <td class="red">1</td>
+            <td class="red">1</td>
+            <td class="red">1</td>
+            <td>0</td>
+            <td class="spacing"></td>
+            <td class="red">1</td>
+            <td class="red">1</td>
+            <td class="red">1</td>
+            <td class="red">1</td>
+            <td class="spacing"></td>
+            <td>ABCD<span class="negative">'</span></td>
+          </tr>
+          <tr>
+            <td class="red">1</td>
+            <td class="red">1</td>
+            <td class="red">1</td>
+            <td class="red">1</td>
+            <td class="spacing"></td>
+            <td class="red">1</td>
+            <td class="red">1</td>
+            <td class="red">1</td>
+            <td class="red">1</td>
+            <td class="spacing"></td>
+            <td>ABCD</td>
+          </tr>
+        </table>
+      </td>
+      <td>
+        <h3>Forma normal conjuntiva</h3>
+        <p>(A+B+C+D).(A+B+C+D<span class="negative">'</span>).(A+B+C<span class="negative">'</span>+D).
+          (A+B+C<span class="negative">'</span>+D<span class="negative">'</span>).(A+B<span class="negative">'</span>+C+D).
+          (A+B<span class="negative">'</span>+C+D<span class="negative">'</span>).(A<span class="negative">'</span>+B+C+D).
+          (A<span class="negative">'</span>+B+C<span class="negative">'</span>+D)
+        </p>
+        <p>Para chegar nesse resultado você compara o Z com as variáveis no caso A,B,C,D. <br>
+          Qualquer variável que não seja 0, é demonstrado na expressão através da <span class="negative">'</span>.</p>
+        <p>Ex1: A+B<span class="negative">'</span>+C+D<span class="negative">'</span>, na tabela o B e o D possuem valor = 1.</p>
+        <p>Ex2: A<span class="negative">'</span>+B+C<span class="negative">'</span>+D, na tabela o A e o C possuem valor = 1.</p>
+        <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+        <h3>Forma normal disjuntiva</h3>
+        <p>(A<span class="negative">'</span>BCD<span class="negative">'</span>)+(A<span class="negative">'</span>BCD)+
+          (AB<span class="negative">'</span>C<span class="negative">'</span>D)+(AB<span class="negative">'</span>CD)+
+          (ABC<span class="negative">'</span>D<span class="negative">'</span>)+(ABC<span class="negative">'</span>D)+
+          (ABCD<span class="negative">'</span>)+(ABCD)
+        </p>
+        <p>Para chegar nesse resultado você compara o Z com as variáveis no caso A,B,C,D. <br>
+          Qualquer variável que não seja 1, é demonstrado na expressão através da <span class="negative">'</span>.</p>
+        <p>Ex1: A<span class="negative">'</span>BCD<span class="negative">'</span>, na table o A e o D possuem valor = 0.</p>
+        <p>Ex2: AB<span class="negative">'</span>C<span class="negative">'</span>D, na table o B e o C possuem valor = 0.</p>
+      </td>
+    </table>
+  </div>
+  <hr>
+  <!-- ////////////////////////////////////////////////////
+    Diagrama de Euler Venn.
+  //////////////////////////////////////////////////// -->
+  <div class="bottom-container">
+    <h1>Diagrama de Euler Venn</h1>
+    <table align = "center" border="1" cellpadding="0" cellspacing="0">
+      <tr>
+        <td><img src="diagrama.png" alt=""></td>
+        <td>
+          <p>Nesse exemplo de um diagrama de Euler Venn você terá que me falar o resultado entre P<span class="negative">'</span>.Q.R <br>
+            Lembrando que P é o circulo do topo, Q é o circulo esquerdo e R o circulo direito (SEMPRE NESSA ORDEM!). </p>
+        </td>
+        <td><img src="diagramaP.png" alt=""></td>
+        <td>
+          <p>Primeiro nos começamos por P<span class="negative">'</span> onde pintaremos tudo que está fora do P com a cor verde.</p>
+        </td>
+      </tr>
+      <tr>
+        <td class="table-hr" colspan="4"></td>
+      </tr>
+      <tr>
+        <td><img src="diagramaQ.png" alt=""></td>
+        <td>
+          <p>Depois iremos pintar ou fazer linhas vermelhas dentro do circulo de Q. </p>
+        </td>
+        <td><img src="diagramaR.png" alt=""></td>
+        <td>
+          <p>Novamente iremos pintar ou fazer linhas, só que dessa vez azuis dentro do circulo de R.</p>
+        </td>
+      </tr>
+      <tr>
+        <td class="table-hr" colspan="4"></td>
+      </tr>
+      <tr>
+        <td colspan="2"><img src="diagramaF.png" alt=""></td>
+        <td colspan="2">
+          <p>Por ultimo iremos pintar a parte do diagrama de Euler Venn que possuir todas as cores.</p>
+        </td>
+      </tr>
+    </table>
+  </div>
+</body>
+
+</html>
